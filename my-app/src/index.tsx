@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import MainPage from './MainPage';
+import {MainPage} from './main-page/MainPage';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import {Information} from "./Information";
-import {Error} from "./Error";
+import {Information} from "./information/Information";
+import {Error} from "./error/Error";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
