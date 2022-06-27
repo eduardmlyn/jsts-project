@@ -1,0 +1,20 @@
+.Main-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.MuiTypography-h3 {
+  color: white;
+}
+
+.MuiAlert-standardWarning {
+  margin-bottom: 2rem;
+}
